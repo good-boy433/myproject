@@ -16,4 +16,10 @@ public class UserController {
     public Object getUser() {
     return new User("1001","张三");
     }
+
+    @RequestMapping("/userCC")
+    public Object getUserCC() {
+        return new User("1001","CC");
+    }
+
 }
